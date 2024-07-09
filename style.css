@@ -139,7 +139,7 @@ li {
 }
 
 .recruiter-list li {
-  padding: 10px;
+  padding: 1px;
   border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
@@ -149,16 +149,44 @@ li {
 .recruiter-list li .status {
   display: flex;
   align-items: center;
-  font-size: 14px;
-  color: #ff9800;
-  padding: 7px;
+  font-size: 12px;
+  background-color: #ff9800;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  margin-right: 9px;
 }
 
 .recruiter-list li .status span {
-  margin-left: 5px;
+  margin-left: 2px;
 }
 .recruiter-list li .status span i {
   padding-right: 4px;
+}
+
+.recruiter-list .recruiter-follow {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.recruiter-list h2 {
+  font-size: 12px;
+  font-family: system-ui, sans-serif;
+  font-weight: 800;
+  padding: 0 12px 0 12px;
+  display: flex;
+  color: #000;
+}
+.recruiter-list button {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 7.9px 13px;
+  margin-left: 8px;
 }
 
 .form-popup {

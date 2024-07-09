@@ -96,7 +96,7 @@ function renderRecruiterList() {
       li.innerHTML = `<div class="status">
                 <span class="status-icon"><i class="fa-regular fa-clock"></i></span>  Pending
             </div>
-      <span>${recruiter.firstName} ${recruiter.lastName} (${recruiter.role})</span>
+      <span class="recruiter-follow">${recruiter.firstName} ${recruiter.lastName} <h2 class="r">${recruiter.role}</h2></span>
             `;
 
       const statusBtn = document.createElement("button");
